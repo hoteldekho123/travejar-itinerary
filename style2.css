@@ -76,7 +76,6 @@ body {
 .swiper-bottom .swiper-slide:hover {
     filter: brightness(1);
 }
-
 .itinerary-right-card {
     padding: 15px;
     border-radius: 8px;
@@ -462,7 +461,182 @@ body {
     top: 2px;
     background: none;
 }
+.itinerary-form-card {
+    padding: 12px 12px 18px;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    z-index: 1;
+}
+.itinerary-form-card .itinerary-form-heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #183d4c;
+    padding: 12px;
+    border-radius: 7px;
+    line-height: normal;
+}
+.itinerary-form-card .itinerary-form-price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    background-color: #f3f3f3;
+    padding: 6px;
+}
+.itinerary-form-card .itinerary-form-price span {
+    color: #dc3545;
+}
+.itinerary-form-card .itinerary-input-group >*,
+.itinerary-form-card .itinerary-input-group .form-control {
+    height: 43px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 100%;
+}
 
+.itinerary-form-card .itinerary-input-group textarea {
+    height: 90px !important;
+}
+.itinerary-form-card .itinerary-input-group >*:focus,
+.itinerary-form-card .itinerary-input-group .form-control:focus {
+    border-color: #dc3545;
+}
+.itinerary-form-card .itinerary-form-inner {
+    gap: 12px;
+}
+.itinerary-form-card .itinerary-sumbit-btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding: 12px ;
+    transition: all 0.3s ease-in-out;
+    line-height: normal;
+}
+.itinerary-form-card .itinerary-sumbit-btn:hover {
+    background-color: #ce0b1f;
+}
+
+
+
+.tour-packages-card {
+    border-radius: 10px;
+}
+.tour-packages-card .tour-slider-btn {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    font-size: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #dc3545;
+    transition: all 0.3s ease-in-out;
+}
+.tour-packages-card .tour-slider-btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.tour-packages-card .tour-slider-btn::after {
+    display: none;
+}
+.tour-packages-card .tour-packages-img {
+    height: 210px;
+}
+.tour-packages-card .tour-packages-offer {
+    padding: 24px 48px 5px;
+    line-height: normal;
+    top: -8px;
+    font-size: 17px;
+    font-weight: 600;
+    /* left: 50%; */
+    right: -51px;
+    transform: rotate(45deg);
+    z-index: 1;
+    color: #fff;
+    background-color: #dc3545;
+}
+.tour-packages-card .tour-packages-location {
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 1;
+    color: #fff ;
+    bottom: 0px;
+    left: 1px;
+    /* background: #dc3545; */
+    line-height: normal;
+    padding: 4px 6px;
+}
+.tour-packages-card .tour-packages-location .tour-location-icon {
+    height: 23px;
+    width: 24px;
+}
+.tour-packages-card .tour-packages-body {
+    padding: 10px;
+}
+.tour-packages-card .tour-packages-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.tour-packages-card .tour-packages-title a {
+    font-weight: 600;
+    color: #000;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.tour-packages-card .tour-packages-title a:hover {
+    color: #dc3545;
+}
+.tour-packages-card .tour-packages-review {
+    font-weight: 500;
+    margin-block: 6px;
+    color: #dc3545;
+}
+.tour-packages-card .tour-packages-review span {
+    color: #000;
+}
+.tour-packages-card .tour-price-cut {
+    font-size: 17px;
+    color: #dc3545;
+}
+.tour-packages-card .tour-price-inner {
+    font-size: 18px;
+    font-weight: 600;
+}
+.tour-packages-card .tour-per-adult {
+    line-height: normal;
+    margin-top: 0px;
+    font-size: 15px;
+}
+.tour-packages-card .tour-packages-footer {
+    gap: 13px;
+    margin-top: 16px;
+}
+.tour-packages-card .tour-packages-btn {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px ;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    line-height: normal;
+}
+.tour-packages-card .tour-packages-btn-one {
+    background-color: #dc3545;
+}
+.tour-packages-card .tour-packages-btn-one:hover {
+    background-color: #ce0b1f;
+}
+.tour-packages-card .tour-packages-btn-two {
+    background-color: #183d4c;
+}
+.tour-packages-card .tour-packages-btn-two:hover {
+    background-color: #062f3f;
+}
 
 
 
