@@ -518,8 +518,6 @@ body {
     background-color: #ce0b1f;
 }
 
-
-
 .tour-packages-card {
     border-radius: 10px;
 }
@@ -637,6 +635,50 @@ body {
 .tour-packages-card .tour-packages-btn-two:hover {
     background-color: #062f3f;
 }
+.tour-packages-card-two .tour-packages-location {
+    color: #000;
+    padding: 0;
+    gap: 5px;
+}
+.tour-packages-card-two .tour-packages-location .tour-location-icon {
+    height: 22px;
+    width: 18px;
+}
+.tour-packages-card-two .tour-packages-review {
+    color: #19ad6f;
+    margin: 0;
+}
+.tour-packages-card-two .card-call {
+	z-index: 99999;
+	right: 10px;
+	bottom: 10px;
+	background: #dc3545;
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	animation: cc-calto-action-ripple 0.6s linear infinite;
+    font-size: 15px;
+}
+.tour-packages-card-two .card-call i {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.tour-packages-card-two .card-call:hover i {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg); 
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2), 0 0 0 0 rgba(220, 53, 69, 0.2), 0 0 0 5px rgba(220, 53, 69, 0.2), 0 0 0 10px rgba(220, 53, 69, 0.2);
+        box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2), 0 0 0 0 rgba(220, 53, 69, 0.2), 0 0 0 5px rgba(220, 53, 69, 0.2), 0 0 0 10px rgba(220, 53, 69, 0.2); 
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2), 0 0 0 5px rgba(220, 53, 69, 0.2), 0 0 0 10px rgba(220, 53, 69, 0.2), 0 0 0 20px rgba(220, 53, 69, 0);
+        box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2), 0 0 0 5px rgba(220, 53, 69, 0.2), 0 0 0 10px rgba(220, 53, 69, 0.2), 0 0 0 20px rgba(220, 53, 69, 0);
+    } 
+}
+
 
 
 
