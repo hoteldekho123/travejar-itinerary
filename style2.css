@@ -587,6 +587,7 @@ body {
     font-size: 17px;
     line-height:26px ;
     transition: all 0.3s ease-in-out;
+    display: block;
 }
 .tour-packages-card .tour-packages-title a:hover {
     color: #dc3545;
