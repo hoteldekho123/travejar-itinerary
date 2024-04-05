@@ -524,10 +524,10 @@ body {
     border-radius: 10px;
 }
 .tour-packages-card .tour-slider-btn {
-    height: 25px;
-    width: 25px;
+    height: 23px;
+    width: 23px;
     background-color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     top: 50%;
     transform: translateY(-50%);
     color: #dc3545;
@@ -554,8 +554,8 @@ body {
     right: -51px;
     transform: rotate(45deg);
     z-index: 1;
-    color: #fff;
-    background-color: #dc3545;
+    color: #dc3545;
+    background-color:#fff ;
 }
 .tour-packages-card .tour-packages-location {
     font-size: 16px;
