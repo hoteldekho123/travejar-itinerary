@@ -205,6 +205,7 @@ body {
 }
 .itinerary-right-card .free-cancel-check a {
     font-weight: 600;
+    color: #183d4c;
 }
 .itinerary-right-card .free-cancel-check .cancel-check-icon {
     height: 18px;
@@ -578,12 +579,13 @@ body {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
 }
 .tour-packages-card .tour-packages-title a {
     font-weight: 600;
     color: #000;
     font-size: 17px;
+    line-height:26px ;
     transition: all 0.3s ease-in-out;
 }
 .tour-packages-card .tour-packages-title a:hover {
@@ -658,14 +660,14 @@ body {
 	color: #ffffff;
 	animation: cc-calto-action-ripple 0.6s linear infinite;
     font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.tour-packages-card-two .card-call:hover {
+    transform: scale(1.1);
 }
 .tour-packages-card-two .card-call i {
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
-}
-.tour-packages-card-two .card-call:hover i {
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg); 
 }
 
 @keyframes cc-calto-action-ripple {
@@ -710,8 +712,7 @@ body {
     color: #183d4c;
 }
 .form-section .progress-list li {
-    width: 33%;
-    float: left;
+    flex: 1;
 }
 .form-section .progress-list li span {
     font-size: 17px;
